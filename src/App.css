@@ -1,0 +1,139 @@
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1600px !important;
+  }
+}
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.result-block-container .result-block {
+  opacity: 1;
+}
+
+.navbar {
+  background-color: #17a2b8 !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-light.bg-light .nav-link {
+  color: white;
+}
+.navbar .router-link-exact-active {
+  color: white;
+  border-bottom: 3px solid #f8f9fa;
+}
+.btn-primary {
+  background-color: #0c5460;
+  border: 1px solid #0c5460;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.logo {
+  background-image: url("./assets/quoteMaker.png");
+  width: 2rem;
+  height: 2.25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  .background-color: beige !important;
+}
+
+/* My New CSS for Tooltip */
+/* Tooltip container */
+.tooltip1 {
+  position: relative;
+  display: inline-block; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip1 .tooltiptext1 {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip1:hover .tooltiptext1 {
+  visibility: visible;
+}
+
+.background-image {
+  background-image: url("./assets/bg4.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  margin-top: 5rem !important;
+  color: white;
+  font-family: serif;
+}
+
+footer {
+  min-height: 70px;
+}
+
+.fade {
+  transition: opacity 0s !important;
+}
+
+.btn-primary:hover {
+  background-color: #17a2b8;
+  color: white;
+}

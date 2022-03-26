@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da0152f8.css",
+    "main.js": "/static/js/main.b3d722a5.js",
+    "static/media/bg4.jpg": "/static/media/bg4.95ad9b8cc014ae19eb36.jpg",
+    "static/media/quoteMaker.png": "/static/media/quoteMaker.f92985e439ed3bb96b15.png",
+    "static/media/loading.svg": "/static/media/loading.330b7d99bfbae8039a5456998d97914f.svg",
+    "index.html": "/index.html",
+    "main.da0152f8.css.map": "/static/css/main.da0152f8.css.map",
+    "main.b3d722a5.js.map": "/static/js/main.b3d722a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da0152f8.css",
+    "static/js/main.b3d722a5.js"
+  ]
+}
