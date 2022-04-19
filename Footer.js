@@ -35,6 +35,10 @@ const Footer = () => (
         Wiki
       </a>
     </span>
+    <span>
+      <a href="https://quotemakerbackend.herokuapp.com/api-docs/">Swagger</a>
+      <br />
+    </span>
   </footer>
 );
 
